@@ -1,0 +1,24 @@
+.rootButton {
+  all: unset;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.75rem;
+  translate: all linear 100ms;
+  color: #ffffff;
+}
+
+.ok {
+  background-color: #268d26;
+}
+
+.ok:hover {
+  background-color: #2cb62c;
+}
+
+.cancel {
+  background-color: #8f1717;
+}
+
+.cancel:hover {
+  background-color: #cc4f4f;
+}
