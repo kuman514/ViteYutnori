@@ -1,0 +1,21 @@
+.pawn {
+  position: relative;
+  width: 120%;
+  aspect-ratio: 1 / 1;
+}
+
+.pawnBody {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: solid 1px #000000;
+}
+
+.layer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-text-stroke: 1px #000000;
+  color: #ffffff;
+  font-weight: 900;
+}
