@@ -10,9 +10,21 @@ html {
 body {
   background-color: white;
   color: black;
+}
+
+#root {
   width: 100vw;
   height: 100dvh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: min(100vw, 100vh);
+  height: min(100vw, 100vh);
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

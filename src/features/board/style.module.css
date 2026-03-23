@@ -1,0 +1,39 @@
+.board {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  position: relative;
+}
+
+.squareLine {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  top: 5%;
+  aspect-ratio: 1 / 1;
+  border: solid 0.125rem #000000;
+}
+
+.diagonalLine {
+  position: absolute;
+  width: 120%;
+  left: -10%;
+  top: 50%;
+  height: 0.125rem;
+  background-color: #000000;
+}
+
+.diagonal45Deg {
+  transform: rotateZ(45deg);
+}
+
+.diagonalRev45Deg {
+  transform: rotateZ(-45deg);
+}
+
+.node {
+  position: absolute;
+}
+
+.node > div {
+  cursor: pointer;
+}

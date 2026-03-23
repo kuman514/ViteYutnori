@@ -1,5 +1,10 @@
+import Board from '^/features/board';
 import './global.css';
 
 export default function App() {
-  return <h1>Implement ViteYutnori</h1>;
+  return (
+    <main>
+      <Board />
+    </main>
+  );
 }
