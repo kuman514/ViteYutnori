@@ -1,6 +1,6 @@
-import { BoardNode } from './types';
+import { BoardNodePosition, BoardNodeRoute } from './types';
 
-export const BOARD_NODES: BoardNode[] = [
+export const BOARD_NODES: BoardNodeRoute[] = [
   // 0
   {
     backTo: 19,
@@ -175,4 +175,213 @@ export const BOARD_NODES: BoardNode[] = [
     passThrough: { 27: 19 },
     startTo: 19,
   },
+];
+
+export const BOARD_NODE_POSITIONS: BoardNodePosition[] = [
+  // 0
+  {
+    top: '77%',
+    left: '92%',
+  },
+  // 1
+  {
+    top: '57%',
+    left: '92%',
+  },
+  // 2
+  {
+    top: '37%',
+    left: '92%',
+  },
+  // 3
+  {
+    top: '17%',
+    left: '92%',
+  },
+  // 4
+  {
+    top: '0%',
+    left: '90%',
+  },
+  // 5
+  {
+    top: '2%',
+    left: '77%',
+  },
+  // 6
+  {
+    top: '2%',
+    left: '57%',
+  },
+  // 7
+  {
+    top: '2%',
+    left: '37%',
+  },
+  // 8
+  {
+    top: '2%',
+    left: '17%',
+  },
+  // 9
+  {
+    top: '0%',
+    left: '0%',
+  },
+  // 10
+  {
+    top: '17%',
+    left: '2%',
+  },
+  // 11
+  {
+    top: '37%',
+    left: '2%',
+  },
+  // 12
+  {
+    top: '57%',
+    left: '2%',
+  },
+  // 13
+  {
+    top: '77%',
+    left: '2%',
+  },
+  // 14
+  {
+    top: '90%',
+    left: '0%',
+  },
+  // 15
+  {
+    top: '92%',
+    left: '17%',
+  },
+  // 16
+  {
+    top: '92%',
+    left: '37%',
+  },
+  // 17
+  {
+    top: '92%',
+    left: '57%',
+  },
+  // 18
+  {
+    top: '92%',
+    left: '77%',
+  },
+  // 19
+  {
+    top: '90%',
+    left: '90%',
+  },
+  // 20
+  {
+    top: `${(100 / 6) * 1 - 3}%`,
+    left: `${(100 / 6) * 5 - 3}%`,
+  },
+  // 21
+  {
+    top: `${(100 / 6) * 2 - 3}%`,
+    left: `${(100 / 6) * 4 - 3}%`,
+  },
+  // 22
+  {
+    top: '45%',
+    left: '45%',
+  },
+  // 23
+  {
+    top: `${(100 / 6) * 4 - 3}%`,
+    left: `${(100 / 6) * 2 - 3}%`,
+  },
+  // 24
+  {
+    top: `${(100 / 6) * 5 - 3}%`,
+    left: `${(100 / 6) * 1 - 3}%`,
+  },
+  // 25
+  {
+    top: `${(100 / 6) * 1 - 3}%`,
+    left: `${(100 / 6) * 1 - 3}%`,
+  },
+  // 26
+  {
+    top: `${(100 / 6) * 2 - 3}%`,
+    left: `${(100 / 6) * 2 - 3}%`,
+  },
+  // 27
+  {
+    top: `${(100 / 6) * 4 - 3}%`,
+    left: `${(100 / 6) * 4 - 3}%`,
+  },
+  // 28
+  {
+    top: `${(100 / 6) * 5 - 3}%`,
+    left: `${(100 / 6) * 5 - 3}%`,
+  },
+];
+
+export const IS_BIG: boolean[] = [
+  // 0
+  false,
+  // 1
+  false,
+  // 2
+  false,
+  // 3
+  false,
+  // 4
+  true,
+  // 5
+  false,
+  // 6
+  false,
+  // 7
+  false,
+  // 8
+  false,
+  // 9
+  true,
+  // 10
+  false,
+  // 11
+  false,
+  // 12
+  false,
+  // 13
+  false,
+  // 14
+  true,
+  // 15
+  false,
+  // 16
+  false,
+  // 17
+  false,
+  // 18
+  false,
+  // 19
+  true,
+  // 20
+  false,
+  // 21
+  false,
+  // 22
+  true,
+  // 23
+  false,
+  // 24
+  false,
+  // 25
+  false,
+  // 26
+  false,
+  // 27
+  false,
+  // 28
+  false,
 ];

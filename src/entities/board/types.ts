@@ -1,6 +1,6 @@
 import { NextMove } from '^/shared/types';
 
-export interface BoardNode {
+export interface BoardNodeRoute {
   /**
    * @desc
    * 빽도가 나왔을 때 목적지.
@@ -16,4 +16,9 @@ export interface BoardNode {
    * 정지할 때 가야할 칸.
    */
   startTo: NextMove;
+}
+
+export interface BoardNodePosition {
+  top: `${number}%`;
+  left: `${number}%`;
 }
