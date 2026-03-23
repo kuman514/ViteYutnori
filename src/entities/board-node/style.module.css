@@ -1,0 +1,7 @@
+.boardNode {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  border: solid 1px #000000;
+  background-color: #ffffff;
+}
